@@ -1,11 +1,11 @@
 import tensorflow as tf
 import os
 from arcface import Arcfacelayer
-
+ 
 bn_axis = -1
-initializer = 'glorot_normal'
+initializer = 'glorot_normal' 
 
-
+ 
 def residual_unit_v3(input, num_filter, stride, dim_match, name):
     x = tf.keras.layers.BatchNormalization(axis=bn_axis,
                                            scale=True,

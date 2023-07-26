@@ -121,3 +121,4 @@ for epoch in range(EPOCHS):
                 optimizer.lr = optimizer.lr * 0.5
         if inference_loss * 1.0 < regularization_loss * reg_coef:
             reg_coef = reg_coef * 0.8
+ 

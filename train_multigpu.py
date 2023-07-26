@@ -168,3 +168,4 @@ for img, label in dist_dataset:
 #         dataset = dataset.shuffle(buffer_size=6000000)
 #         dataset = dataset.batch(batch_size * num_replicas)
 #         dist_dataset = strategy.experimental_distribute_dataset(dataset)
+ 
